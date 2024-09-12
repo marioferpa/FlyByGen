@@ -1,10 +1,10 @@
 {
-    "project_directory": "/home/user/FlyByGen",
-    "blender_path": "/home/user/Software/blender-3.6.5-linux-x64/blender",
+    "project_directory": "/home/mario/Programs/FlyByGen",
+    "blender_path": "/home/mario/Programs/blender-3.6.9-linux-x64/blender",
     "blend_file": "lib/Pipeline_v1-0_Base_004.blend",
     
     "bpy_controller": "src/blender/control_blender.py",
-    "post_controller_python": "/home/user/anaconda3/envs/FlyByGen_v1-0/bin/python",
+    "post_controller_python": "/home/mario/Programs/sispo/software/miniconda/envs/FlyByGen_v1-0/bin/python",
     "post_controller_path": "src/postProcessing/control_postProcessing.py",
 
     "cache_dir": "cache/",
@@ -14,7 +14,7 @@
     "log_dir": "logs/",
 
     "render_file" : "cache/SetUp_v1-2_DesktopLinux_005/SpacecraftMotion.blend",
-    "dataset_cache": "/mnt/DatasetCache/Cache/",
+    "dataset_cache": "dataset_cache/",
     "dataset_output": "dataset/",
     "mask_out": "mask/",
     "post_processing_basis": "all/",
@@ -27,7 +27,7 @@
     "dustjet_config": "src/config/blender/dustjets.json",
     "spacecraftAnimation_config": "src/config/blender/animation_spacecraft.json",
     "render_configs": "src/config/blender/render.json", 
-"render_executable": "src/blender/Output/RenderFrame.py",
+	"render_executable": "src/blender/Output/RenderFrame.py",
     
     "noise_config": "src/config/PyPostProcessor/noise.json",
     "mask_config": "src/config/PyPostProcessor/mask_config.json"

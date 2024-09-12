@@ -13,16 +13,16 @@
     },
     "rotation_parameters": {
       "B2_main_rotation": {
-        "period": 4
+        "period": 400
       },
       "B2_precession": {
-        "period": 100,
-        "angle_deg": -15.0,
+        "period": 0,
+        "angle_deg": 0.0,
         "division": 100
       },
       "B2_nutation": {
-        "period": 20,
-        "angle_deg": 5.0,
+        "period": 0,
+        "angle_deg": 0.0,
         "division": 100
       }, 
       "Camera_OPIC":{
@@ -37,7 +37,7 @@
       "speed": 80,
       "t_start": -1220,
       "t_end": -1200,
-      "closest_fly_by": [0, 400, 0],
+      "closest_fly_by": [0, 25, 0],
       "fly_by_azimuth_degrees": 0
     },
     "fps": 24,

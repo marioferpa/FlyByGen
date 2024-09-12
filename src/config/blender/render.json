@@ -16,8 +16,8 @@
         "nucleus": "AsteroidSurface.001"
     },
     "cycles":{
-        "experimental": true,
-        "GPU": true
+        "experimental": false,
+        "GPU": false
     },
     "viewport":{
         "preview_adaptive_sampling": false,
@@ -27,7 +27,7 @@
         "use_adaptive_sampling": false,
         "samples": 512,
         "use_denoising": true,
-        "denoiser": "OPTIX"
+        "denoiser": "OPENIMAGEDENOISE"
     },
     "lightpaths":{
         "max_bounces": 128,
